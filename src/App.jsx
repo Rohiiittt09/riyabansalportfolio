@@ -49,7 +49,7 @@ bg-[#f7eaff]
 bg-[radial-gradient(ellipse_80%_60%_at_5%_40%,rgba(175,109,255,0.48),transparent_67%),radial-gradient(ellipse_70%_60%_at_45%_45%,rgba(255,100,180,0.41),transparent_67%),radial-gradient(ellipse_62%_52%_at_83%_76%,rgba(255,235,170,0.44),transparent_63%),radial-gradient(ellipse_60%_48%_at_75%_20%,rgba(120,190,255,0.36),transparent_66%),linear-gradient(45deg,#f7eaff_0%,#fde2ea_100%)]
 bg-no-repeat bg-cover h-screen ${load ? "hidden" : "flex"}  justify-center items-center`}
         >
-          <div class="loader"></div>
+          <div className="loader"></div>
         </div>
         <nav className="fixed fo  top-0 z-50 w-screen    bg-pink-200  backdrop-blur-sm">
           <div className="container mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center">
@@ -660,7 +660,36 @@ flex justify-center items-center "
                   allowfullscreen
                 ></iframe>
               </div>
-            </div>
+              <div   className="border w-50 p-5  border-pink-500/40
+bg-gradient-to-br from-pink-700/30 via-fuchsia-700/20 to-rose-400/30
+backdrop-blur-md
+shadow-[0_0_20px_rgba(236,72,153,0.35)]
+hover:shadow-[0_0_40px_rgba(236,72,153,0.7)]
+hover:scale-105
+transition-all duration-300 ease-in-out
+rounded-3xl
+flex justify-center items-center  ">
+  <a href="https://www.instagram.com/reel/C4zar_GSlYK/"><img className="w-full h-90 object-cover" src="img/ig1.jpg" alt="" /></a>
+
+              </div>
+                </div>
+          </div>
+          <div className="sm:w-3/5 lg:w-2/5 w-4/5 text-black/80 fo text-2xl sm:text-4xl mt-10 ">
+            <h1 className="border-b-4 sm:p-2 px-2  border-b-pink-800">
+              Huskify Advertisement
+            </h1>
+          </div>
+
+          <div className="mt-10">
+            <div className="border  w-70 h-fit mx-auto sm:w-120  sm:h-70  md:w-180 md:h-100  p-5  border-pink-500/40
+bg-gradient-to-br from-pink-700/30 via-fuchsia-700/20 to-rose-400/30
+backdrop-blur-md
+shadow-[0_0_20px_rgba(236,72,153,0.35)]
+hover:shadow-[0_0_40px_rgba(236,72,153,0.7)]
+hover:scale-105
+transition-all duration-300 ease-in-out
+rounded-3xl
+flex justify-center items-center "><iframe className="h-full w-full" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FHuskPowerSystemsIndia%2Fvideos%2F1397214217884820%2F&show_text=false&width=560&t=0" width="560" height="314"  scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen={true} ></iframe></div>
           </div>
         </section>
         <section
