@@ -117,263 +117,273 @@ bg-no-repeat bg-cover h-screen ${load ? "hidden" : "flex"}  justify-center items
 
                 <div className="mt-10 flex justify-around  mb-10 ">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="drop-shadow-[0_0_8px_rgba(236,72,153,0.6)] transition-all duration-300 hover:scale-110"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="fcpGradient"
-                        x1="0%"
-                        y1="0%"
-                        x2="100%"
-                        y2="100%"
-                      >
-                        <stop offset="0%" stopColor="#ec4899" />
-                        <stop offset="100%" stopColor="#f9a8d4" />
-                      </linearGradient>
-                    </defs>
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  className="drop-shadow-[0_0_8px_rgba(99,102,241,0.6)] transition-all duration-300 hover:scale-110"
+>
+  <defs>
+    <linearGradient
+      id="fcpGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#34D399" />   {/* green */}
+      <stop offset="25%" stopColor="#22D3EE" />  {/* cyan */}
+      <stop offset="50%" stopColor="#60A5FA" />  {/* blue */}
+      <stop offset="75%" stopColor="#F59E0B" />  {/* orange */}
+      <stop offset="100%" stopColor="#EC4899" /> {/* pink */}
+    </linearGradient>
+  </defs>
 
-                    {/* Clapperboard */}
-                    <rect
-                      x="3"
-                      y="6"
-                      width="18"
-                      height="14"
-                      rx="3"
-                      fill="url(#fcpGradient)"
-                    />
+  {/* Clapperboard */}
+  <rect
+    x="3"
+    y="6"
+    width="18"
+    height="14"
+    rx="3"
+    fill="url(#fcpGradient)"
+  />
 
-                    {/* Top stripes */}
-                    <path d="M3 9h18" stroke="#fff" strokeWidth="1.5" />
+  {/* Top stripes */}
+  <path d="M3 9h18" stroke="#fff" strokeWidth="1.5" />
+  <path d="M7 6l-2 3" stroke="#fff" strokeWidth="1.5" />
+  <path d="M12 6l-2 3" stroke="#fff" strokeWidth="1.5" />
+  <path d="M17 6l-2 3" stroke="#fff" strokeWidth="1.5" />
 
-                    <path d="M7 6l-2 3" stroke="#fff" strokeWidth="1.5" />
-
-                    <path d="M12 6l-2 3" stroke="#fff" strokeWidth="1.5" />
-
-                    <path d="M17 6l-2 3" stroke="#fff" strokeWidth="1.5" />
-
-                    {/* Play icon */}
-                    <path d="M10 12.5l5 2.5-5 2.5v-5z" fill="#fff" />
-                  </svg>
+  {/* Play icon */}
+  <path d="M10 12.5l5 2.5-5 2.5v-5z" fill="#fff" />
+</svg>
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="drop-shadow-[0_0_8px_rgba(236,72,153,0.6)] transition-all duration-300 hover:scale-110"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="premiereGradient"
-                        x1="0%"
-                        y1="0%"
-                        x2="100%"
-                        y2="100%"
-                      >
-                        <stop offset="0%" stopColor="#ec4899" />
-                        <stop offset="100%" stopColor="#f9a8d4" />
-                      </linearGradient>
-                    </defs>
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  className="drop-shadow-[0_0_8px_rgba(168,85,247,0.6)] transition-all duration-300 hover:scale-110"
+>
+  <defs>
+    <linearGradient
+      id="premiereGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#2b0a3d" />
+      <stop offset="100%" stopColor="#4c1d95" />
+    </linearGradient>
+  </defs>
 
-                    {/* Background */}
-                    <rect
-                      x="3"
-                      y="3"
-                      width="18"
-                      height="18"
-                      rx="4"
-                      fill="url(#premiereGradient)"
-                    />
+  {/* Background */}
+  <rect
+    x="3"
+    y="3"
+    width="18"
+    height="18"
+    rx="4"
+    fill="url(#premiereGradient)"
+    stroke="#c084fc"
+    strokeWidth="0.7"
+  />
 
-                    {/* PR Text */}
-                    <text
-                      x="7"
-                      y="16"
-                      fill="#fff"
-                      fontSize="7"
-                      fontWeight="bold"
-                      fontFamily="Arial, sans-serif"
-                    >
-                      Pr
-                    </text>
-                  </svg>
+  {/* PR Text */}
+  <text
+    x="7"
+    y="16"
+    fill="#d8b4fe"
+    fontSize="7"
+    fontWeight="bold"
+    fontFamily="Arial, sans-serif"
+  >
+    Pr
+  </text>
+</svg>
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="drop-shadow-[0_0_8px_rgba(236,72,153,0.6)] transition-all duration-300 hover:scale-110"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="photoshopGradient"
-                        x1="0%"
-                        y1="0%"
-                        x2="100%"
-                        y2="100%"
-                      >
-                        <stop offset="0%" stopColor="#ec4899" />
-                        <stop offset="100%" stopColor="#f9a8d4" />
-                      </linearGradient>
-                    </defs>
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  className="drop-shadow-[0_0_8px_rgba(56,189,248,0.6)] transition-all duration-300 hover:scale-110"
+>
+  <defs>
+    <linearGradient
+      id="photoshopGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#001E36" />
+      <stop offset="100%" stopColor="#0B2447" />
+    </linearGradient>
+  </defs>
 
-                    {/* Background */}
-                    <rect
-                      x="3"
-                      y="3"
-                      width="18"
-                      height="18"
-                      rx="4"
-                      fill="url(#photoshopGradient)"
-                    />
+  {/* Background */}
+  <rect
+    x="3"
+    y="3"
+    width="18"
+    height="18"
+    rx="4"
+    fill="url(#photoshopGradient)"
+    stroke="#31A8FF"
+    strokeWidth="0.7"
+  />
 
-                    {/* PS Text */}
-                    <text
-                      x="6.5"
-                      y="16"
-                      fill="#fff"
-                      fontSize="7"
-                      fontWeight="bold"
-                      fontFamily="Arial, sans-serif"
-                    >
-                      Ps
-                    </text>
-                  </svg>
+  {/* PS Text */}
+  <text
+    x="6.5"
+    y="16"
+    fill="#31A8FF"
+    fontSize="7"
+    fontWeight="bold"
+    fontFamily="Arial, sans-serif"
+  >
+    Ps
+  </text>
+</svg>
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="drop-shadow-[0_0_8px_rgba(236,72,153,0.6)] transition-all duration-300 hover:scale-110"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="lightroomGradient"
-                        x1="0%"
-                        y1="0%"
-                        x2="100%"
-                        y2="100%"
-                      >
-                        <stop offset="0%" stopColor="#ec4899" />
-                        <stop offset="100%" stopColor="#f9a8d4" />
-                      </linearGradient>
-                    </defs>
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  className="drop-shadow-[0_0_8px_rgba(6,182,212,0.6)] transition-all duration-300 hover:scale-110"
+>
+  <defs>
+    <linearGradient
+      id="lightroomGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#0F172A" />
+      <stop offset="100%" stopColor="#164E63" />
+    </linearGradient>
+  </defs>
 
-                    {/* Background */}
-                    <rect
-                      x="3"
-                      y="3"
-                      width="18"
-                      height="18"
-                      rx="4"
-                      fill="url(#lightroomGradient)"
-                    />
+  {/* Background */}
+  <rect
+    x="3"
+    y="3"
+    width="18"
+    height="18"
+    rx="4"
+    fill="url(#lightroomGradient)"
+    stroke="#4FD1FF"
+    strokeWidth="0.7"
+  />
 
-                    {/* Lr Text */}
-                    <text
-                      x="6.5"
-                      y="16"
-                      fill="#fff"
-                      fontSize="7"
-                      fontWeight="bold"
-                      fontFamily="Arial, sans-serif"
-                    >
-                      Lr
-                    </text>
-                  </svg>
+  {/* Lr Text */}
+  <text
+    x="6.5"
+    y="16"
+    fill="#4FD1FF"
+    fontSize="7"
+    fontWeight="bold"
+    fontFamily="Arial, sans-serif"
+  >
+    Lr
+  </text>
+</svg>
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="drop-shadow-[0_0_8px_rgba(236,72,153,0.6)] transition-all duration-300 hover:scale-110"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="afterEffectsGradient"
-                        x1="0%"
-                        y1="0%"
-                        x2="100%"
-                        y2="100%"
-                      >
-                        <stop offset="0%" stopColor="#ec4899" />
-                        <stop offset="100%" stopColor="#f9a8d4" />
-                      </linearGradient>
-                    </defs>
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  className="drop-shadow-[0_0_8px_rgba(167,139,250,0.6)] transition-all duration-300 hover:scale-110"
+>
+  <defs>
+    <linearGradient
+      id="afterEffectsGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#1E003A" />
+      <stop offset="100%" stopColor="#4C1D95" />
+    </linearGradient>
+  </defs>
 
-                    {/* Background */}
-                    <rect
-                      x="3"
-                      y="3"
-                      width="18"
-                      height="18"
-                      rx="4"
-                      fill="url(#afterEffectsGradient)"
-                    />
+  {/* Background */}
+  <rect
+    x="3"
+    y="3"
+    width="18"
+    height="18"
+    rx="4"
+    fill="url(#afterEffectsGradient)"
+    stroke="#C4B5FD"
+    strokeWidth="0.7"
+  />
 
-                    {/* Ae Text */}
-                    <text
-                      x="6"
-                      y="16"
-                      fill="#fff"
-                      fontSize="7"
-                      fontWeight="bold"
-                      fontFamily="Arial, sans-serif"
-                    >
-                      Ae
-                    </text>
-                  </svg>
+  {/* Ae Text */}
+  <text
+    x="6"
+    y="16"
+    fill="#C4B5FD"
+    fontSize="7"
+    fontWeight="bold"
+    fontFamily="Arial, sans-serif"
+  >
+    Ae
+  </text>
+</svg>
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="drop-shadow-[0_0_8px_rgba(236,72,153,0.6)] transition-all duration-300 hover:scale-110"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="illustratorGradient"
-                        x1="0%"
-                        y1="0%"
-                        x2="100%"
-                        y2="100%"
-                      >
-                        <stop offset="0%" stopColor="#ec4899" />
-                        <stop offset="100%" stopColor="#f9a8d4" />
-                      </linearGradient>
-                    </defs>
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  className="drop-shadow-[0_0_8px_rgba(251,146,60,0.6)] transition-all duration-300 hover:scale-110"
+>
+  <defs>
+    <linearGradient
+      id="illustratorGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#1C0F0A" />
+      <stop offset="100%" stopColor="#2B140A" />
+    </linearGradient>
+  </defs>
 
-                    {/* Background */}
-                    <rect
-                      x="3"
-                      y="3"
-                      width="18"
-                      height="18"
-                      rx="4"
-                      fill="url(#illustratorGradient)"
-                    />
+  {/* Background */}
+  <rect
+    x="3"
+    y="3"
+    width="18"
+    height="18"
+    rx="4"
+    fill="url(#illustratorGradient)"
+    stroke="#FF9A00"
+    strokeWidth="0.7"
+  />
 
-                    {/* Ai Text */}
-                    <text
-                      x="6.5"
-                      y="16"
-                      fill="#fff"
-                      fontSize="7"
-                      fontWeight="bold"
-                      fontFamily="Arial, sans-serif"
-                    >
-                      Ai
-                    </text>
-                  </svg>
+  {/* Ai Text */}
+  <text
+    x="6.5"
+    y="16"
+    fill="#FF9A00"
+    fontSize="7"
+    fontWeight="bold"
+    fontFamily="Arial, sans-serif"
+  >
+    Ai
+  </text>
+</svg>
                 </div>
               </div>
             </div>
